@@ -2,4 +2,4 @@
 my first project
 
 ## Problems 
-i am having problems with making the site responsive
+I am having problems with making the site responsive

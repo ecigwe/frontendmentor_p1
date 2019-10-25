@@ -1,0 +1,429 @@
+* {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    overflow: auto;
+    width: 100vw;
+}
+
+div header {
+    transition: all 2s ease-out;
+    background-color: rgba(209, 234, 243, 0.247);
+    background-image: url("./images/bg-hero-desktop.svg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header img {
+    margin-left: 80px;
+    margin-top: 20px;
+    transition: all 2s ease-out;
+}
+
+.try {
+    margin-right: 90px;
+    float: right;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.tryForFree {
+    transition: all 2s ease-out;
+    -webkit-border-radius: 24px;
+    border-radius: 24px;
+    border: 1px solid green;
+    padding-top: 8px;
+    height: 40px;
+    width: 150px;
+    font-size: 18px;
+    background: white;
+    list-style: none;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.tryForFree:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+hr {
+    border: 1px solid rgba(19, 18, 18, 0.116);
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.left-text {
+    width: 50%;
+    float: left;
+}
+
+.build {
+    padding-left: 100px;
+    width: 100%;
+    margin-top: 110px;
+    margin-right: 10px;
+}
+
+.build h1 {
+    font-size: 43px;
+    margin: 30px 0 30px 40px;
+
+}
+
+.build p {
+    color: #888888;
+    font-size: 20px;
+    margin: 30px 0 30px 40px;
+}
+
+.image-moc {
+    width: 50%;
+    float: right;
+}
+
+.image-moc img {
+    margin-right: 0%;
+    margin-top: 12%;
+    height: 65vh;
+    filter: drop-shadow(0px 5px 3px black);
+    padding-right: 30px;
+    opacity: 1;
+}
+
+.form-control {
+    width: 300px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+ul {
+    padding-left: 120px;
+}
+
+ul li {
+    padding-top: 15px;
+    text-align: center;
+}
+
+ul .submit {
+    border-radius: 30px;
+    background: hsl(322, 100%, 66%);
+    border-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    height: 55px;
+    margin-top: 20px;
+}
+
+ul .submit:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+
+/* Banner two */
+.second-Banner {
+    transition: all 2s ease-out;
+    background-color: white;
+    display: block;
+    height: 140vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.paragraphOne,
+.paragraphTwo,
+.paragraphThree {
+    margin-top: 32px;
+    align-items: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    padding-top: 8px;
+    height: 320px;
+    width: 850px;
+    border: 1px solid rgba(19, 18, 18, 0.116);
+    transition: box-shadow ease-in 100ms;
+    text-transform: capitalize;
+}
+
+.paragraphOne:hover,
+.paragraphTwo:hover,
+.paragraphThree:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.paragraph-grow {
+    padding-left: 40px;
+    display: block;
+}
+
+.paragraph-grow h1 {
+    margin-bottom: 15px;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.paragraph-grow p {
+    font-size: 20px;
+}
+
+.paragraphOne-image img {
+    width: 70%;
+    margin-left: 81px;
+}
+
+.paragraphTwo-flowing h1 {
+    margin-bottom: 15px;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.paragraphTwo-flowing p {
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+.paragraphTwo-image img {
+    width: 70%;
+    margin-left: 100px;
+}
+
+.paragraphThree-your {
+    padding-left: 40px;
+    display: block;
+}
+
+.paragraphThree-your {
+    display: block;
+}
+
+.paragraphThree-your h1 {
+    margin-bottom: 15px;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.paragraphThree-your p {
+    font-size: 20px;
+}
+
+.paragraphThree-image img {
+    width: 70%;
+    margin-left: 60px;
+}
+
+.lastParagraph {
+    align-items: center;
+    margin: 32px auto 30px;
+    border-radius: 8px;
+    padding-top: 8px;
+    
+    height: 200px;
+    width: 650px;
+    border: 1px solid rgba(19, 18, 18, 0.116);
+    transition: box-shadow ease-in 100ms;
+    text-transform: capitalize;
+    transform: translate(0px, 60%);
+    background-color: #fff;
+}
+.container{
+    margin-top: auto;
+}
+.lastParagraph:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.paragraph-Ready h1 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 40px;
+    font-size: 30px;
+}
+
+
+.paragraph-Ready-ul {
+    height: 55px;
+    width: 300px;
+    outline: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 18px;
+    margin: 20px auto 16px;
+    border-radius: 30px;
+    background: hsl(322, 100%, 66%);
+    border: none transparent;
+    color: #fff;
+}
+
+.paragraph-Ready-ul ul {
+    padding-left: 40px;
+    list-style: none;
+}
+
+.paragraph-Ready-ul ul li {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.paragraph-Ready-ul:hover {
+    cursor: pointer;
+}
+
+footer {
+    height: 75vh;
+    background-color: black;
+    color: white;
+    
+}
+
+.quater1 {
+    padding-top: 160px;
+    margin-left: 50px;
+    display: flex;
+}
+
+.quaer1 {
+    width: 25%;
+    padding-left: 100px;
+}
+
+footer ul li {
+    list-style: none;
+}
+.attribution{
+    margin-bottom: auto;
+}
+.attribution p {
+    margin-top: 80px;
+    font-size: 15px;
+    display: block;
+    margin-right: 30px;
+    float: right;
+}
+
+.attribution span:hover {
+    cursor: pointer;
+    color: rgba(151, 63, 129, 0.692)
+}
+
+.location-icon {
+    padding-top: 30px;
+    display: flex;
+}
+
+.location-icon img {
+    height: 20px;
+    background-color: black;
+}
+
+.location-icon p {
+    padding-left: 30px;
+}
+
+.location-icon p:hover {
+    cursor: pointer;
+    color: rgba(151, 63, 129, 0.692)
+}
+
+.phone {
+    padding-top: 20px;
+    display: flex;
+}
+
+.phone img {
+    height: 20px;
+    background-color: black;
+}
+
+.phone p {
+    padding-left: 20px;
+}
+
+.phone p:hover {
+    cursor: pointer;
+    color: rgba(151, 63, 129, 0.692)
+}
+
+.email {
+    padding-top: 25px;
+    display: flex;
+}
+
+.email img {
+    height: 20px;
+    background-color: black;
+}
+
+.email p {
+    padding-left: 20px;
+}
+
+.email p:hover {
+    cursor: pointer;
+    color: rgba(151, 63, 129, 0.692)
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.white-footer-logo img {
+    color: white;
+}
+
+.links {
+    padding-top: 90px;
+    display: flex;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.link1 ul li {
+    text-align: left;
+}
+
+.link1 ul li:hover {
+    cursor: pointer;
+    color: rgba(151, 63, 129, 0.692)
+}
+
+.link1 {
+    padding-right: 70px;
+}
+
+.link2 ul li {
+    text-align: left;
+}
+
+.link2 ul li:hover {
+    cursor: pointer;
+    color: rgba(151, 63, 129, 0.692)
+}

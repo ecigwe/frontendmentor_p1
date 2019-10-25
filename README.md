@@ -1,2 +1,5 @@
 # frontendmentor_p1
-my 
+my first project
+
+## Problems 
+i am having problems with making the site responsive
